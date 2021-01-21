@@ -1,0 +1,106 @@
+* {
+    font-family: arial,sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+header {
+    margin:0.5em 0.5em;
+    height:2.5em;
+    display: flex;
+    flex-direction: row;
+    font-size:0.7em;
+    font-weight:lighter;
+}
+.center {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Clases */
+
+.menuItem {
+    margin:0.8em;
+}
+
+/* IDs */
+
+#container {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+#content {
+    height:100%
+}
+#busqueda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo {
+    width:16em;
+    height:8em;
+    background-image: url(/img/Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#search {
+    border: 1px solid rgb(167, 167, 167);
+    width:24em;
+    height:2em;
+    border-radius:100em;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+#lupa {
+    width:2.5em;
+    height:1.3em;
+    background-image: url(/img/lupa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#searchInput {
+    width:100%
+}
+#micro {
+    width:2.5em;
+    height:1.6em;
+    background-image: url(/img/micro.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#menuLeft {
+    width:35%;
+    display:flex;
+    justify-content: flex-start;
+}
+#menuRight {
+    width:65%;
+    display:flex;
+    justify-content: flex-end;
+}
+#menuApps {
+    width:1.5em;
+    height:1.5em;
+    margin:0.5em 0.5em;
+    background-image: url(../img/menuApps.png);
+    background-size: cover;
+}
+#menuLogin {
+    padding:0.6em 0.8em;
+    margin:0.5em 1em 0 1em;
+    font-size:0.9em;
+    color:white;
+    font-weight:bold;
+    border-radius:0.2em;
+    background:-webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+}
