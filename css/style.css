@@ -70,7 +70,7 @@ footer {
 #logo {
     width:16em;
     height:8em;
-    background-image: url(/img/Logo.png);
+    background-image: url(../img/Logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position:center;
@@ -87,7 +87,7 @@ footer {
 #lupa {
     width:2.5em;
     height:1.3em;
-    background-image: url(/img/lupa.png);
+    background-image: url(../img/lupa.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position:center;
@@ -122,7 +122,7 @@ footer {
 #micro {
     width:2.5em;
     height:1.6em;
-    background-image: url(/img/micro.png);
+    background-image: url(../img/micro.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position:center;
